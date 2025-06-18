@@ -1,3 +1,9 @@
+if [[ $TERM == "xterm-kitty" ]]; then
+    fastfetch
+else
+    fastfetch --logo-type chafa
+fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -81,3 +87,8 @@ function smartcard() {
 # Shell utils
 alias pbcopy='xclip -selection clipboard'
 alias ls='ls --color=auto'
+
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+setopt SHARE_HISTORY
