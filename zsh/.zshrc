@@ -23,10 +23,11 @@ export PATH="$HOME/opt/bin:$YARN_GLOBAL_PREFIX/bin/$HOME/go/bin:$HOME/.local/bin
 # Compilers
 export CC=clang
 export CXX=clang++
-export CMAKE_CXX_COMPILER_LAUNCHER=ccache
-export CMAKE_C_COMPILER_LAUNCHER=ccache
+#export CMAKE_CXX_COMPILER_LAUNCHER=ccache
+#export CMAKE_C_COMPILER_LAUNCHER=ccache
 export CMAKE_EXPORT_COMPILE_COMMANDS=1
 export CLICOLOR_FORCE=1
+export CLANGD_FLAGS="--experimental-modules-support"
 
 # Yubikey
 export SSH_AUTH_SOCK=`gpgconf --list-dirs agent-ssh-socket`
