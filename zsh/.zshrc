@@ -84,6 +84,8 @@ function smartcard() {
 #
 #nvm use node > /dev/null
 
+bindkey "^[[3~" delete-char
+
 # Shell utils
 alias pbcopy='xclip -selection clipboard'
 alias ls='ls --color=auto'
