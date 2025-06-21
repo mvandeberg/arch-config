@@ -85,6 +85,9 @@ function smartcard() {
 #
 #nvm use node > /dev/null
 
+# Add git completion
+autoload -Uz compinit && compinit
+
 bindkey "^[[3~" delete-char
 
 # Shell utils

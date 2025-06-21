@@ -1,18 +1,20 @@
 baobab
 base
 base-devel
+btop
 btrfs-progs
-ccache
 clang
 cmake
 code
 decibels
+dmidecode
 efibootmgr
 epiphany
 evince
 fastfetch
 gdm
 git
+git-zsh-completion
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
@@ -89,6 +91,7 @@ pipewire-jack
 pipewire-pulse
 rygel
 sbctl
+signal-desktop
 simple-scan
 smartmontools
 snapper
@@ -97,6 +100,7 @@ sof-firmware
 stow
 sushi
 tecla
+telegram-desktop
 totem
 traceroute
 vim
@@ -112,3 +116,4 @@ xorg-xinit
 yelp
 yubikey-manager
 zsh
+zsh-completions
