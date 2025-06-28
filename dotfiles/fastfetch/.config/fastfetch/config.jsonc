@@ -40,13 +40,13 @@
             "keyColor": "green"
         },
         {
-            "type": "swap",
-            "key": "│ ├󰍛 Swap",
+            "type": "disk",
+            "key": "│ ├󰍛 Disk",
             "keyColor": "green"
         },
         {
-            "type": "disk",
-            "key": "└ └󰍛 Disk",
+            "type": "swap",
+            "key": "└ └󰍛 Swap",
             "keyColor": "green"
         },
         {
