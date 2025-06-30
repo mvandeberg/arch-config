@@ -1,6 +1,8 @@
+amd-ucode
 baobab
 base
 base-devel
+bluez-utils
 btop
 btrfs-progs
 clang
@@ -104,12 +106,15 @@ totem
 traceroute
 vim
 vulkan-intel
+vulkan-radeon
 wget
 wireless_tools
 wireplumber
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
 xdg-utils
+xf86-video-amdgpu
+xf86-video-ati
 xorg-server
 xorg-xinit
 yelp
